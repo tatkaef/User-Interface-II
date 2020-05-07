@@ -59,6 +59,7 @@ header h1{
 .mainFoto{
     display: flex;
     flex-direction:column;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     /* align-content: center; */
@@ -75,6 +76,7 @@ header h1{
 .item{
     display: flex;
     flex-direction:column;
+    /*  */
 }
 .fotos{
     display: flex;
