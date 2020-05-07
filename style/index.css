@@ -97,16 +97,63 @@ button{
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    margin: 20px;
+    margin: 7vh;
     background-color: #3CB371;
 }
 .niz h4{
     font-size: 1em; 
     text-align: center; 
     color: orangered;
+    margin: 0.5vh;
 }
 niz a{
     width:100px;
     background: orangered; 
 }
  
+
+@media(max-width: 800px){
+    .mainFoto{        
+        height: 25vh;
+        font-size: 3em;  
+    }
+    button{
+        width:80px;    
+    }
+    .fotos{
+        margin: 0 0% 0 7% ;
+    }
+    .fotos img  {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+    }
+    .niz{
+        margin: 5vh;
+    }
+} /* close 800px */
+
+
+@media(max-width: 500px){
+    header{
+        justify-content:flex-end;
+    }
+    header h1 {
+        display: none;
+         } 
+    .links a {
+        width: 5em;
+    }
+    .mainFoto{        
+        height: 25vh;
+        font-size: 2.5em;  
+    }
+    button{
+        width:80px;    
+    }
+    .fotos{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+} /* close 500px */
